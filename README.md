@@ -35,6 +35,7 @@ Recommended wiki usage:
 - Keep executable `.sql` files in the repository.
 - Keep test plans, runbooks, and troubleshooting notes in the wiki.
 - Update the wiki whenever a new testing workflow is introduced.
+- In GitHub, enable the repository wiki under **Settings > General > Features**, then create pages from the starter content in `docs/wiki/`.
 
 ## Branch protection
 
@@ -45,3 +46,5 @@ Protect the default branch for this repository (`main` today; apply the same rul
 - resolved conversations before merge
 - force pushes disabled
 - branch deletion disabled
+
+Set these protections in GitHub under **Settings > Rules > Rulesets** (or the branch protection settings for the repository).
